@@ -1,7 +1,7 @@
 
 .center { 
       display: block;
-      padding-top: 0px;
+      padding-top: 48px;
       margin-left: auto;
       margin-right: auto;
       width: 100%;
@@ -55,6 +55,8 @@ li {
     overflow: hidden;
     top: 10px;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 .navbar a{
     color: #4B2E82;
