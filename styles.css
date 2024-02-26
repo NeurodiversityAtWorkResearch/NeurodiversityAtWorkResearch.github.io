@@ -230,7 +230,7 @@ li {
   background-color:#DFDFDF;
   height: 25%;
   width: 100%;
-  overflow:hidden;
+  overflow:scroll;
 }
 
 
