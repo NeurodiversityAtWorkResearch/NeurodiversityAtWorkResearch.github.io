@@ -112,8 +112,8 @@ li {
 }
 
 .photo {
-  height: 50%;
-  width: 100%;
+  height: 400px;
+  width: 600px;
 }
 
 .andrew {
@@ -230,8 +230,10 @@ li {
   background-color:#DFDFDF;
   height: 25%;
   width: 100%;
-  bottom:0;
+  overflow:scroll;
 }
+
+
 
 .about {
   width: 50%;
@@ -273,4 +275,45 @@ table {
 th {
   text-align: left;
   font-weight: 500;
+}
+
+
+.sponsorship{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.sponsorship th{
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #DFDFDF;
+}
+
+.sponsorship td{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.sponsorship ul {
+  margin-left: 0;
+  padding-left: 40px;
+}
+
+
+.program{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 40%;
+  margin-left: 7%;
+}
+
+.program th{
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #DFDFDF;
+}
+
+.program td{
+  border: 1px solid black;
+  padding: 5px;
 }
