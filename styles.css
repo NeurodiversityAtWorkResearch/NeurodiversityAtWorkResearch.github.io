@@ -65,15 +65,19 @@ li {
     margin-right: auto;
 }
 
+.navbar{
+  width: 100%;
+}
 
 .navbar ul{
     list-style-type: none;
     background-color: #DFDFDF;
     padding: 0px;
+    padding-top: 0;
     margin: 0px;
     padding-left:90px;
     overflow: hidden;
-    width: 100%;
+    width: 92.9%;
 }
 
 .navbar a{
@@ -86,10 +90,16 @@ li {
     text-align: center;
 }
 .navbar a:hover{
+    background-color: #D2D2D2;
+    transform: scale(1.03);
+    color: #f24b03;
+    
+}
+
+.navbar a.active{
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 6px;
-    background-color: #D2D2D2
 }
 
 .navbar li {
@@ -100,6 +110,7 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index:9999;
 }
 
 .sticky + .content {
@@ -236,21 +247,39 @@ li {
 
 .site-footer
 {
+  display: flex;
   background-color:#DFDFDF;
-  height: 25%;
+  height: 380px;
   width: 100%;
   overflow:scroll;
 }
 
+.site-footer a:hover{
+  font-size:18.5px;
+  color: #f24b03;
+}
 
 
 .about {
-  width: 50%;
+  width: 30%;
+  float: left;
+  padding-left: 72px;
+  overflow:hidden;
+}
+
+.browse {
+  padding-top: 15px;
+  width:20%;
   float: left;
   padding-left: 53px;
 }
 
+.space {
+  height:2px;
+}
+
 .footer-right {
+  padding-top: 15px;
   width:40%;
   float:left;
   position: relative;
@@ -331,4 +360,64 @@ th {
   height: 300px;
   width: 210px;
   margin-left: 7%;
+}
+
+.sticky {
+  width:100%;
+}
+
+
+.grey {
+  background-color: #DFDFDF;
+  display: flex;
+  flex-direction: column;
+}
+
+.grey p{
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+.button-container {
+  position: relative;
+  overflow:hidden;
+  z-index:1;
+}
+
+.button-container img {
+  width: 100%;
+  height: auto;
+}
+
+.button-container .btn {
+  position:absolute;
+  top: 76%;
+  left: 8%;
+  background-color: #ff930a;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  z-index: 2;
+  box-shadow: 10px 10px 28px #4b2e59ff;
+}
+
+.button-container .btn:hover {
+  background-color: #f24b03;
+  transform: scale(1.05);
+}
+
+
+.logo {
+  padding-top: 30px;
+  padding-left: 37px;
+  width: 200px;
+  height: 100 px;
+}
+
+.linky a:hover{
+  color: #f24b03;
 }
