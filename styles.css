@@ -372,7 +372,7 @@ th {
 .program{
   border: 1px solid black;
   border-collapse: collapse;
-  width: 40%;
+  width: 50%;
   margin-left: 7%;
 }
 
@@ -383,6 +383,24 @@ th {
 }
 
 .program td{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.program-rooms {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 7%;
+}
+
+.program-rooms th{
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #DFDFDF;
+}
+
+.program-rooms td{
   border: 1px solid black;
   padding: 5px;
 }
