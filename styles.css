@@ -104,6 +104,7 @@ li {
 }
 
 .navbar ul{
+    font-family: sans-serif;
     list-style-type: none;
     background-color: #DFDFDF;
     padding: 0px;
