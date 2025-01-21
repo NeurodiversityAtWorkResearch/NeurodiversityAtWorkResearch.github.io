@@ -283,7 +283,8 @@ li {
 
 .site-footer
 {
-  display: flex;
+  font-family: sans-serif;
+      display: flex;
   background-color:#DFDFDF;
   height: 380px;
   width: 100%;
@@ -291,12 +292,14 @@ li {
 }
 
 .site-footer a:hover{
+  font-family: sans-serif;
   font-size:18.5px;
   color: #f24b03;
 }
 
 
 .about {
+  font-family: sans-serif;
   width: 30%;
   float: left;
   padding-left: 72px;
@@ -304,6 +307,7 @@ li {
 }
 
 .browse {
+  font-family: sans-serif;
   padding-top: 15px;
   width:20%;
   float: left;
@@ -315,6 +319,7 @@ li {
 }
 
 .footer-right {
+  font-family: sans-serif;
   padding-top: 15px;
   width:40%;
   float:left;
@@ -323,8 +328,9 @@ li {
 
 .site-footer h2
 {
+  font-family: sans-serif;
   text-align: left;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   width: 85%;
   color: #4B2E82;
@@ -332,6 +338,7 @@ li {
 
 .site-footer p
 {
+  font-family: sans-serif;
   text-align: left;
   font-size: large;
   width: 85%;
