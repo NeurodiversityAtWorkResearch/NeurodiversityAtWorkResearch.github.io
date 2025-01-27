@@ -15,19 +15,24 @@
  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="topnav" id="myTopnav">
-   <a href="index.html" class="active">Overview</a>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="index.html" class="active">Overview</a>
  <a href="program.html">Program</a>
  <a href="submission.html">Submissions</a>
    <a href="attendees.html">Location & Hotels</a>
   <a href="sponsorships.html">Sponsorships</a>
    <a href="organization.html">Conference Committees</a>
   <a href="registration.html">Registration</a>
-</div> 
-     <div>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
+</div>
+
 
 
   <script src="script.js" type="text/javascript">
