@@ -169,7 +169,7 @@ li {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #c1272d;
   color: white;
 }
 
