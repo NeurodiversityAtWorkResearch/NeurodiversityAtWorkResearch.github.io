@@ -74,13 +74,13 @@
      
 <script type="text/javascript">
 function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
   } else {
-    x.style.display = "block";
+    x.className = "topnav";
   }
-}
+} 
 </script>
 
 </head>
@@ -92,15 +92,18 @@ function myFunction() {
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+    <a href="index.html" class="active">Overview</a>
+ <a href="program.html">Program</a>
+ <a href="submission.html">Submissions</a>
+   <a href="attendees.html">Location & Hotels</a>
+  <a href="sponsorships.html">Sponsorships</a>
+   <a href="organization.html">Conference Committees</a>
+  <a href="registration.html">Registration</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
-     
 </div> 
+
 
 
 </body>
