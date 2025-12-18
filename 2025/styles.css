@@ -1,0 +1,567 @@
+
+.center { 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+  }
+
+b {
+  font-weight:500; 
+}
+
+
+.update {
+      font-family: sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
+      color: red;
+  } 
+
+h2 {
+      font-family: sans-serif;
+      font-size:23px;
+      font-weight:900;
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
+
+  }
+
+  h3 {
+    font-family: sans-serif;
+    font-size:18px; 
+      margin-bottom:3px;
+    font-weight:700;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+
+}
+  p {
+      font-family: Georgia, Times New Roman, serif;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
+  }
+
+  .warning {
+    color: red;
+  }
+
+  .paper {
+      font-family: sans-serif;
+      font-size: large;
+      font-weight: 300;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      width: 85%;
+  }
+
+  .title {
+      font-family: sans-serif;
+      font-size: large;
+      font-weight: 500;
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
+  
+  }
+
+body {
+      
+ /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+       font-family: sans-serif;
+    font-weight: 300;
+    font-size:17px;
+text-decoration:none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #c1272d;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+} 
+
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} 
+}
+
+ol {
+ font-family: Georgia, Times New Roman, serif;
+      font-size:16px;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+ul {
+ font-family: Georgia, Times New Roman, serif;
+      font-size:16px;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+li {
+  font-family: Georgia, Times New Roman, serif;
+      font-size:16px;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+  width: 100%;
+}
+
+.navbar ul{
+    font-family: sans-serif;
+    list-style-type: none;
+    background-color: #DFDFDF;
+    padding: 0px;
+    padding-top: 0;
+    margin: 0px;
+    padding-left:90px;
+    overflow: hidden;
+    width: 92.9%;
+}
+
+.navbar a{
+    color: #4B2E82;
+      font-family: sans-serif;
+    font-weight: 300;
+    font-size:20px;
+    text-decoration: none;
+    padding: 16px 18px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #D2D2D2;
+      font-family: sans-serif;
+    transform: scale(1.03);
+    color: #f24b03;
+    
+}
+
+.navbar a.active{
+    text-decoration: underline;
+      font-family: sans-serif;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
+}
+
+.navbar li {
+    float: left;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:9999;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.row {
+  margin-left:100px;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.photo {
+  height: 400px;
+  width: 600px;
+}
+
+.andrew {
+  height: 300px;
+  width: 280px;
+  padding-right:20px;
+}
+
+.hala {
+  height: 300px;
+  width: 280px;
+  padding-right:20px;
+}
+
+.kathryn {
+  height: 300px;
+  width: 280px;
+  padding-right:20px;
+}
+
+.photo-gallery {
+  margin-left:100px;
+}
+.photo-container {
+  float: left;
+  padding: 1px;
+}
+
+.photo-gallery::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.left-text {
+  width:100%;
+}
+
+
+
+
+.wrapper {
+  height: 130px;
+  overflow: hidden;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  margin-left: 100px;
+}
+
+.wrapper:before, .wrapper:after {
+  content: "";
+  position: absolute;
+  height: 130px;
+  width: 150px;
+  z-index: 2;
+}
+
+.wrapper:after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.wrapper:before {
+  left: 0;
+  top: 0;
+}
+
+.wrapper .track {
+  display: flex;
+  width: calc(200px * 10);
+}
+
+.wrapper .logo {
+  width: 150px;
+}
+
+.wrapper .logo img {
+  height: 90px;
+}
+
+@keyframes  scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-150px * 3));
+  }
+}
+
+
+.logo-row {
+  margin-left:100px;
+}
+.logo-column {
+  float: left;
+  padding: 10px;
+}
+
+.logo-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.site-footer
+{
+  font-family: sans-serif;
+      display: flex;
+  background-color:#DFDFDF;
+  height: 380px;
+  width: 100%;
+  overflow:scroll;
+}
+
+.site-footer a:hover{
+  font-family: sans-serif;
+  font-size:18.5px;
+  color: #f24b03;
+}
+
+
+.about {
+  font-family: sans-serif;
+  width: 30%;
+  float: left;
+  padding-left: 72px;
+  overflow:hidden;
+}
+
+.browse {
+  font-family: sans-serif;
+  padding-top: 15px;
+  width:20%;
+  float: left;
+  padding-left: 53px;
+}
+
+.space {
+  height:2px;
+}
+
+.footer-right {
+  font-family: sans-serif;
+  padding-top: 15px;
+  width:40%;
+  float:left;
+  position: relative;
+}
+
+.site-footer h2
+{
+  font-family: sans-serif;
+  text-align: left;
+  font-weight: 700;
+  font-size: 20px;
+  width: 85%;
+  color: #4B2E82;
+}
+
+.site-footer p
+{
+  font-family: sans-serif;
+  text-align: left;
+  font-size: large;
+  width: 85%;
+}
+
+table {
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+th {
+  text-align: left;
+  font-weight: 500;
+}
+
+
+.sponsorship{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.sponsorship th{
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #DFDFDF;
+}
+
+.sponsorship td{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.sponsorship ul {
+  margin-left: 0;
+  padding-left: 40px;
+}
+
+
+.program{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 7%;
+}
+
+.program th{
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #DFDFDF;
+}
+
+.program td{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.program-rooms {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 7%;
+}
+
+.program-rooms th{
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #DFDFDF;
+}
+
+.program-rooms td{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.allysa {
+  height: 300px;
+  width: 210px;
+  margin-left: 7%;
+}
+
+.sticky {
+  width:100%;
+}
+
+
+.grey {
+  background-color: #DFDFDF;
+  display: flex;
+  flex-direction: column;
+}
+
+.grey p{
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+.button-container {
+  position: relative;
+  overflow:hidden;
+  z-index:1;
+}
+
+.button-container img {
+  width: 100%;
+  height: auto;
+}
+
+.button-container .btn {
+  position:absolute;
+  top: 76%;
+  left: 8%;
+  background-color: #ff930a;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  z-index: 2;
+  box-shadow: 10px 10px 28px #4b2e59ff;
+}
+
+.button-container .btn:hover {
+  background-color: #f24b03;
+  transform: scale(1.05);
+}
+
+
+.logo {
+  padding-top: 30px;
+  padding-left: 37px;
+  width: 200px;
+  height: 100 px;
+}
+
+.linky a:hover{
+  color: #f24b03;
+}
+
+image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 20%; 
+  left: 2%; 
+ 
+  
+  text-align: center;
+}
