@@ -102,7 +102,7 @@ text-decoration:none;
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #c1272d;
+  background-color: #4c2e85;
   color: white;
 }
 
