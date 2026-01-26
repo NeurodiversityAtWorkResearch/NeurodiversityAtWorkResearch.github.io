@@ -102,7 +102,7 @@ text-decoration:none;
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #c1272d;
+  background-color: #4c2e85;
   color: white;
 }
 
@@ -179,7 +179,7 @@ li {
 }
 
 .navbar a{
-    color: #4B2E82;
+    color: #4c2e85;
       font-family: sans-serif;
     font-weight: 300;
     font-size:20px;
@@ -192,7 +192,7 @@ li {
     background-color: #D2D2D2;
       font-family: sans-serif;
     transform: scale(1.03);
-    color: #f24b03;
+    color: #4c2e85;
     
 }
 
@@ -357,7 +357,7 @@ li {
 .site-footer a:hover{
   font-family: sans-serif;
   font-size:18.5px;
-  color: #f24b03;
+  color: #4c2e85;
 }
 
 
@@ -517,7 +517,7 @@ th {
   position:absolute;
   top: 76%;
   left: 8%;
-  background-color: #ff930a;
+  background-color: #A28f66;
   color: white;
   font-size: 24px;
   font-weight: 600;
@@ -530,7 +530,7 @@ th {
 }
 
 .button-container .btn:hover {
-  background-color: #f24b03;
+  background-color: #4c2e85;
   transform: scale(1.05);
 }
 
@@ -543,7 +543,7 @@ th {
 }
 
 .linky a:hover{
-  color: #f24b03;
+  color: #4c2e85;
 }
 
 image-container {
