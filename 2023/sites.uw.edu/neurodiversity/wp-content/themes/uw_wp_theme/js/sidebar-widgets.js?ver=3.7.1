@@ -1,0 +1,1 @@
+if(document.querySelectorAll(".widget:has(h2)")){let e=document.querySelectorAll(".widget:has(h2)"),t=(e.forEach(e=>{var t=e.querySelector("h2").textContent.trim();e.setAttribute("aria-label",t)}),document.querySelectorAll(".widget:not(:has(h2))"));t.forEach(e=>{e.id.includes("search")&&e.setAttribute("aria-label","Search")})}

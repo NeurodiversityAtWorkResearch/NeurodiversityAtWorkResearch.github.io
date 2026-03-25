@@ -72,7 +72,7 @@ function myFunction() {
 
 <p>There are several types of registration options:</p>
 
-<ol>
+<!-- <ol>
   <li>
     <b>Early Academic/Professional Registration:</b><br>
     Take advantage of discounted rates of $200 by registering before 5:00 PM PDT April 30, 2026.
@@ -93,8 +93,91 @@ function myFunction() {
     <b>Conference Social Dinner Event:</b><br>
     The Neurodiversity at Work Social Dinner Event is available for an additional $50 and includes dinner at a local venue.
   </li>
-</ol>
+</ol> -->
+<style>
+    .registration-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
 
+    .registration-table {
+        width: 100%;
+        max-width: 1000px; /* Limits the table from becoming too wide on large monitors */
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        color: #333;
+        line-height: 1.5;
+        table-layout: fixed; /* Ensures columns respect the percentage widths */
+    }
+
+    .registration-table td {
+        border: 1px solid #ccc;
+        padding: 15px;
+        vertical-align: top;
+        word-wrap: break-word; /* Prevents long text from breaking the layout */
+    }
+
+    .reg-category {
+        font-weight: bold;
+        width: 30%;
+    }
+
+    .reg-deadline {
+        width: 30%;
+    }
+
+    .reg-description {
+        width: 40%;
+    }
+
+    /* Responsive adjustment for mobile devices */
+    @media (max-width: 600px) {
+        .registration-table, .registration-table tbody, .registration-table tr, .registration-table td {
+            display: block;
+            width: 100%;
+        }
+        .registration-table td {
+            box-sizing: border-box;
+            border-bottom: none;
+        }
+        .registration-table tr {
+            border-bottom: 2px solid #ccc;
+            margin-bottom: 10px;
+        }
+    }
+</style>
+
+<div class="registration-container">
+    <table class="registration-table">
+        <tr>
+            <td class="reg-category">Early Academic/Professional Registration $200</td>
+            <td class="reg-deadline">5:00 PM PDT April 30, 2026</td>
+            <td class="reg-description">Take advantage of discounted rates of $200 by registering before</td>
+        </tr>
+        <tr>
+            <td class="reg-category">Regular Academic/Professional Registration $250</td>
+            <td class="reg-deadline">April 30, 2026, to June 7, 2026 (5:00 PM PDT)</td>
+            <td class="reg-description">Register during the regular period for the standard rate. Secure your participation before the late fees apply.</td>
+        </tr>
+        <tr>
+            <td class="reg-category">Late Academic/Professional Registration $325</td>
+            <td class="reg-deadline">June 7, 2026, until the conference date</td>
+            <td class="reg-description">Late registration is available. Please note that a late registration fee will apply.</td>
+        </tr>
+        <tr>
+            <td class="reg-category">Student Registration $75</td>
+            <td class="reg-deadline">Until June 7, 2026 (5:00 PM PDT)</td>
+            <td class="reg-description">The student fee applies until the deadline. A late student fee of $125 applies after this date.</td>
+        </tr>
+        <tr>
+            <td class="reg-category">Conference Social Dinner Event $50</td>
+            <td class="reg-deadline">N/A</td>
+            <td class="reg-description">The Social Dinner Event is available for an additional fee and includes dinner at a local venue.</td>
+        </tr>
+    </table>
+</div>
 <!-- <div class="content" style="display: flex; justify-content: space-around; align-items: flex-start; gap: 10px; width: 100%;">
     
     <div style="flex: 1; text-align: center;">
@@ -127,7 +210,7 @@ function myFunction() {
 
 </div> -->
 
-<div class="content" style="max-width: 1100px; margin: 0 auto; font-family: Arial, sans-serif;">
+<!-- <div class="content" style="max-width: 1100px; margin: 0 auto; font-family: Arial, sans-serif;">
 
     <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 30px;">
         <div style="flex: 1; max-width: 320px;">
@@ -148,7 +231,7 @@ function myFunction() {
         <div style="flex: 1; max-width: 320px;">
             <img src="img/Social Dinner Registration.png" style="width: 100%; height: auto;" alt="Social Event">
         </div>
-    </div>
+    </div> -->
 
     <div style="text-align: center; margin-top: 10px;">
         <p>To receive the discount, students are required to electronically submit a letter from their institution or advisor to certify their status as an active full-time student during the registration process. Note that Active Full-time Students are those who are enrolled in the university and therefore pursuing a higher education degree.</p> 
@@ -158,6 +241,11 @@ function myFunction() {
 <h2>Registration Fee Coverage</h2>
 
 <p>The full conference registration fee covers your attendance at all conference sessions, morning coffee and light breakfast snacks, two lunches, and refreshment breaks. <b>The conference DOES NOT provide dinner</b>. If you have specific dietary needs, please share this information with us during the conference registration process. </p>
+
+<h2>Scholarship Applications are Now Open</h2>
+
+<p>Each year, we hope to attract and support junior scholars and scholars from low-resourced institutions to participate in the Neurodiversity at Work Research Conference. We provide travel scholarships based on need. The number of scholarships and their dollar amount (between $75 and $500) is dependent on the number of registrants and the amount of sponsorships we receive. <a href="https://forms.gle/EVxucaWsQw76UB3D6" target="_blank">Complete this form to be considered for scholarship.</a></p>
+<p>We will review all requests in mid-April. Scholarship payments will be processed after attendance at the conference.</p>
 
 <h2>Travel & Lodging: WORLD CUP ALERT</h2>
 
@@ -170,6 +258,8 @@ function myFunction() {
 <h2>Cancellation and Refund Policy</h2>
 
 <p>Cancellation is available until May 30, 2026.  There is a $25 cancelation charge for processing fees.  No refunds are provided after May 30, 2026. <b>All cancellation requests must be in writing to neurodiversity@uw.edu. Cancellation processing timeframe is 4 weeks</b>.</p>
+
+
 
 <h2>Neurodiversity at Work Research Conference Co-Chairs</h2>
  <p>Hala Annabi (hpannabi@uw.edu), University of Washington</p>
