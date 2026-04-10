@@ -53,6 +53,11 @@ h2 {
     color: red;
   }
 
+  .warning b,
+  .warning strong {
+    color: inherit;
+  }
+
   .paper {
       font-family: sans-serif;
       font-size: large;
