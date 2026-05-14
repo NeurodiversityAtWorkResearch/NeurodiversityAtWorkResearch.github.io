@@ -769,3 +769,116 @@ image-container {
     gap: 8px;
   }
 }
+
+.collaborators-banner {
+  background-color: #ffffff;
+  border: 3px solid #e8e3d3;
+  width: 85%;
+  max-width: 1000px;
+  margin: 1.5em auto 1.75em;
+  padding: 28px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 6px;
+  box-sizing: border-box;
+  gap: 18px;
+}
+
+.collaborators-title {
+  color: #4c2e85;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0 0 6px;
+  padding-left: 4px;
+  width: auto;
+  text-align: left;
+}
+
+.collaborators-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: clamp(2rem, 6vw, 4.5rem);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.collaborator-card {
+  flex: 0 1 260px;
+  max-width: 280px;
+  text-align: center;
+}
+
+.collaborator-photo-link {
+  display: block;
+  text-decoration: none;
+}
+
+.collaborator-photo {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4c2e85;
+  background: #ffffff;
+}
+
+.collaborator-info {
+  margin-top: 1rem;
+  padding: 0 0.25rem;
+  color: #4c2e85;
+  font-family: sans-serif;
+  line-height: 1.45;
+}
+
+.collaborator-info .collaborator-name {
+  margin: 0 0 0.15rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  width: auto;
+}
+
+.collaborator-info .collaborator-affiliation {
+  margin: 0 0 0.5rem;
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  width: auto;
+  opacity: 0.85;
+}
+
+.collaborator-info .collaborator-subtitle {
+  margin: 0 0 0.5rem;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  width: auto;
+  opacity: 0.95;
+}
+
+.collaborator-info .collaborator-quote {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.875rem;
+  font-style: italic;
+  width: auto;
+}
+
+@media (max-width: 600px) {
+  .collaborators-banner {
+    width: 90%;
+    padding: 22px 20px 26px;
+  }
+
+  .collaborators-row {
+    gap: 1.75rem;
+  }
+}
