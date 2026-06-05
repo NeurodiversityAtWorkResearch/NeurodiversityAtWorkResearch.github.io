@@ -49,6 +49,26 @@ h2 {
       width: 85%;
   }
 
+  table th,
+  table td {
+    text-align: left;
+    vertical-align: top;
+  }
+
+  table p,
+  table h2,
+  table h3,
+  table h4,
+  table ul,
+  table ol,
+  table li {
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    max-width: none;
+    text-align: left;
+  }
+
   .warning {
     color: red;
   }
