@@ -27,8 +27,7 @@ function myFunction() {
   border-collapse: collapse;
   width: auto;
   max-width: 85%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1em auto 2.5em;
   table-layout: auto;
 }
           table.program-schedule tr:nth-child(even) {
@@ -36,6 +35,20 @@ function myFunction() {
           table.program-schedule th:first-child,
           table.program-schedule td:first-child {
                white-space: nowrap;
+          }
+          h2.program-day-title {
+               margin-top: 2.5em;
+               margin-bottom: 0.35em;
+          }
+          .program-day-divider + h2.program-day-title {
+               margin-top: 0;
+          }
+          .program-day-divider {
+               width: 85%;
+               max-width: 960px;
+               border: none;
+               border-top: 2px solid rgba(76, 46, 133, 0.35);
+               margin: 0 auto 2.5em;
           }
      </style>
 <body>
@@ -67,7 +80,7 @@ function myFunction() {
 
 <h2>NWRC 2026 Program</h2>
 
-<h2>Day 1</h2>
+<h2 class="program-day-title">Day 1</h2>
 <h3>June 22, 2026</h3>
 <h3 style="margin-bottom:10px">Pre-Conference Workshop</h3>
 <p style="color:red">INVITATION ONLY</p>
@@ -91,7 +104,6 @@ function myFunction() {
         </tr>
     </tbody>
 </table>
-<br>
 <h3 style="margin-bottom:10px">Main Conference Opening Event</h3>
 <table class="program-schedule">
     <thead>
@@ -105,37 +117,45 @@ function myFunction() {
         <tr>
             <td><p>5:00pm</p></td>
             <td><p>Check-in</p></td>
-            <td></td>
+            <td>PCAR 3rd Floor</td>
         </tr>
         <tr>
             <td><p>5:30pm</p></td>
             <td><p>Welcome &amp; Refreshments</p></td>
-            <td></td>
+            <td>PCAR 4th Floor Patio</td>
         </tr>
         <tr>
             <td><p>5:45pm</p></td>
             <td><p>Opening Keynote<br><em>Resilience at Scale: Building Neuroinclusive Systems in an Era of Disruption</em><br>Neil Barnett, Chief Accessibility Officer at Microsoft</p></td>
-            <td></td>
+            <td>DEM 302/PCAR 294 overflow room</td>
         </tr>
         <tr>
             <td><p>6:00pm</p></td>
             <td><p>Community Activity<br><em>Threads of Change: A Community Art Installation for Adaptive Futures</em></p></td>
-            <td></td>
+            <td>DEM 302/PCAR 294 overflow room</td>
         </tr>
         <tr>
             <td><p>7:00pm</p></td>
-            <td><p>Wrap Up</p></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
             <td><p>Evening Dinner on your own</p></td>
             <td></td>
         </tr>
+        
     </tbody>
 </table>
 
-<h2>Day 2</h2>
+<div class="keynote-speaker-banner">
+  <img src="img/Neil_Barnett.png" alt="Neil Barnett, keynote speaker" class="keynote-speaker-photo">
+  <div class="keynote-speaker-content">
+    <h2 class="keynote-speaker-name">Neil Barnett</h2>
+    <p class="keynote-speaker-subtitle">GM &amp; Chief Technology Officer</p>
+    <p class="keynote-speaker-bio">Neil Barnett is General Manager and Chief Accessibility Officer at Microsoft, where he leads the company's accessibility strategy across products, services, and policy.</p>
+    <p class="keynote-speaker-bio">With more than two decades at Microsoft, he has helped advance inclusive technology, customer support, and disability inclusion programs, including Microsoft's Autism Hiring Program and Enterprise Disability Answer Desk.</p>
+    <p class="keynote-speaker-bio">Neil partners with the disability community, customers, governments, and industry leaders to make accessibility more seamless, trusted, and built into technology from the start. He is especially focused on the role of AI in expanding opportunity, independence, and participation for people with disabilities.</p>
+  </div>
+</div>
+<hr class="program-day-divider">
+
+<h2 class="program-day-title">Day 2</h2>
 <h3>June 23, 2026</h3>
 <table class="program-schedule">
     <thead>
@@ -149,77 +169,91 @@ function myFunction() {
         <tr>
             <td><p>8:30am</p></td>
             <td><p>Check-in</p></td>
-            <td></td>
+            <td>PCAR 3rd Floor</td>
         </tr>
         <tr>
             <td><p>9:00am</p></td>
             <td><p>Neurodiversity at Work Research Conference Past, Present, and Future</p></td>
-            <td></td>
+            <td>DEM 302/PCAR 294 overflow room</td>
         </tr>
         <tr>
             <td><p>9:20am</p></td>
             <td><p>Research Keynote<br><em>Advancing the Evidence Base on Employment for Autistic Adults: Gaps, Opportunities, and Next Steps</em><br>Dr. Julie Lounds Taylor</p></td>
-            <td></td>
+            <td>DEM 302/PCAR 294 overflow room</td>
         </tr>
         <tr>
             <td><p>9:50am</p></td>
             <td><p>Keynote Response Panel 1:<br><em>From Evidence to Threads: Shaping Adaptive Futures in Employment Research</em></p></td>
-            <td></td>
+            <td>DEM 302/PCAR 294 overflow room</td>
         </tr>
         <tr>
             <td><p>10:45am</p></td>
             <td><p>Break</p></td>
-            <td></td>
+            <td>Snacks in DEM 302</td>
         </tr>
         <tr>
             <td><p>11:00am</p></td>
             <td><p>Paper Session 1:<br>Track A: <em>Threads of Belonging: Culture, Allyship, and Inclusion in Neurodiverse Workplaces</em><br>Track B: <em>Threads of Access: Pathways, Fit, and Sustainable Employment for Neurodivergent Talent</em></p></td>
-            <td></td>
+            <td>PCAR 390 & PCAR 392</td>
         </tr>
         <tr>
             <td><p>12:10pm</p></td>
             <td><p>Lunch</p></td>
-            <td></td>
+            <td>PCAR 4th Floor Patio</td>
         </tr>
         <tr>
             <td><p>1:30pm</p></td>
             <td><p>Panel #2:<br><em>Threads of Technology: Co-Creating the Role of AI in Adaptive Futures</em></p></td>
-            <td></td>
+            <td>DEM 302/PCAR 294 overflow room</td>
         </tr>
         <tr>
             <td><p>2:30pm</p></td>
             <td><p>Break</p></td>
-            <td></td>
+            <td>Snacks in DEM 302</td>
         </tr>
         <tr>
             <td><p>2:45pm</p></td>
             <td><p>Paper &amp; Poster Session 2:<br>Track A Papers: <em>Threads of Leadership: Navigating Strengths, Strain, and Neurodivergent Leadership Paths</em><br>Track B Posters: <em>Threads in Motion: Emerging Research on Neurodiversity, Work, and Inclusion</em></p></td>
-            <td></td>
+            <td>PCAR 390 & DEM 302</td>
         </tr>
         <tr>
             <td><p>3:45pm</p></td>
             <td><p>Break</p></td>
-            <td></td>
+            <td>Snacks in DEM 302</td>
         </tr>
         <tr>
             <td><p>4:00pm</p></td>
             <td><p>Panel #3:<br><em>Weaving Threads of Practice: Clinicians Advancing Neurodiversity Employment Research</em></p></td>
-            <td></td>
+            <td>DEM 302/PCAR 294 overflow room</td>
         </tr>
         <tr>
             <td><p>5:00pm</p></td>
             <td><p>Wrap up for the day</p></td>
-            <td></td>
+            <td>DEM 302/PCAR 294 overflow room</td>
         </tr>
         <tr>
             <td><p>6:30pm</p></td>
             <td><p>Conference Social Event<br><em>A Taste of the Pacific Northwest</em><br>Ivars Salmon House</p></td>
-            <td></td>
+            <td>Ivars Salmon House</td>
         </tr>
     </tbody>
 </table>
 
-<h2>Day 3</h2>
+<div class="keynote-speaker-banner">
+  <img src="img/Julie_Lounds_Taylor.png" alt="Julie Lounds Taylor, PhD, keynote speaker" class="keynote-speaker-photo">
+  <div class="keynote-speaker-content">
+    <h2 class="keynote-speaker-name">Julie Lounds Taylor, PhD</h2>
+    <p class="keynote-speaker-subtitle">Co-Director of the Center of Excellence in Developmental Disabilities at Vanderbilt University</p>
+    <p class="keynote-speaker-bio">Julie Lounds Taylor, PhD is a Professor of Pediatrics at Vanderbilt University Medical Center, where she holds an Endowed Directorship in Autism Research. She is also Co-Director of Vanderbilt's University Center for Excellence in Developmental Disabilities.</p>
+    <p class="keynote-speaker-bio">Her program of research focused on understanding how to improve the transition to adulthood and adult outcomes for autistic individuals and their families. She has led a number of research projects focused on autistic adolescents and adults, including: understanding changes during the transition to adulthood, testing interventions to improve access to adult disability services, examining associations between aspects of community engagement and mental health; and investigating employment stability, including predictors of stability and consequences of instability.</p>
+    <p class="keynote-speaker-bio">Her research has been funded by the National Institutes of Health, the U.S. Department of Defense's Autism Research Program, and the U.S. Department of Education's Institute for Educational Sciences. A few key recent citations are included below:</p>
+    <p class="keynote-speaker-bio">Mueller, S., Libster, N., Sullivan, V., DaWalt, L.S., &amp; Taylor, J.L. (published online Mar. 10, 2026). Associations between aspects of employment and psychological health among autistic adults. <em>Autism in Adulthood</em>. <a href="https://doi.org/10.1177/25739581261418877">https://doi.org/10.1177/25739581261418877</a></p>
+    <p class="keynote-speaker-bio">Moser, C., Adams, R., Zheng, S., Bishop, S., Taylor, J.L. (2026). Brief report: The vocational and educational activities of transition-aged autistic youth with low IQ. <em>Journal of Intellectual Disability Research</em>, 70, 218-224.</p>
+  </div>
+</div>
+<hr class="program-day-divider">
+
+<h2 class="program-day-title">Day 3</h2>
 <h3>June 24, 2026</h3>
 <table class="program-schedule">
     <thead>
@@ -233,37 +267,37 @@ function myFunction() {
         <tr>
             <td><p>8:30am</p></td>
             <td><p>Coffee and Light Breakfast Snacks</p></td>
-            <td></td>
+            <td>Snacks in DEM 302</td>
         </tr>
         <tr>
             <td><p>8:50am</p></td>
             <td><p>Opening Reflections and Instructions</p></td>
-            <td></td>
+            <td>DEM 302/PCAR 294 overflow room</td>
         </tr>
         <tr>
             <td><p>9:00am</p></td>
             <td><p><em>Weaving Threads, Finding Community: Sustaining and Transforming Inquiry in the Age of Disruption</em></p></td>
-            <td></td>
+            <td>DEM 302/PCAR 294 overflow room</td>
         </tr>
         <tr>
             <td><p>10:00am</p></td>
             <td><p>Break</p></td>
-            <td></td>
+            <td>Snacks in DEM 302</td>
         </tr>
         <tr>
             <td><p>10:15am</p></td>
             <td><p>Paper Session 3:<br>Track A: <em>Threads of Interaction: Rethinking Communication, Camouflage, and Collaboration at Work</em><br>Track B: <em>Threads of Support: Designing Accommodations, Interventions, and Systemic Change</em></p></td>
-            <td></td>
+            <td>PCAR 390 & PCAR 392</td>
         </tr>
         <tr>
             <td><p>11:50am</p></td>
             <td><p>Pick up Your Lunch Box</p></td>
-            <td></td>
+            <td>DEM 302</td>
         </tr>
         <tr>
             <td><p>12:00pm- 1:00pm</p></td>
             <td><p><em>Weaving It Together: Reflections and Next Threads for Neurodiversity Employment</em><br>Closing Discussion Over Lunch</p></td>
-            <td></td>
+            <td>DEM 302/PCAR 294 overflow room</td>
         </tr>
     </tbody>
 </table>
